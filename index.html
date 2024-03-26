@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <h1>Pizza Order</h1>
+    <p id="stdname"></p>
+    <p id="stdid"></p>
+    <form id="pizzaForm" action="">
+        <label for="size">Pizza Size:</label>
+        <select id="size" name="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select><br><br>
+
+        <label for ="crust">Select Crust type : </label><br>
+        <input type="radio" id="thin" name="crust" value="Thin crust">
+        <label for="thin crust">Thin crust</label><br>
+        <input type="radio" id="regular" name="crust" value="Regular crust">
+        <label for="regular crust">Regular crust</label><br>
+        <input type="radio" id="thick" name="crust" value="Thick crust">
+        <label for="thick crust">Thick crust</label><br><br>
+
+        <label for ="crust">Select base sauce : </label><br>
+        <input type="radio" id="garlic" name="basesauce" value="Creamy garlic">
+        <label for="creamy garlic">Creamy Garlic</label><br>
+        <input type="radio" id="tomato" name="basesauce" value="Tomato">
+        <label for="tomato sauce">Tomato Sauce</label><br>
+        <input type="radio" id="pestobasil" name="basesauce" value="Pesto Basil">
+        <label for=" pesto basil">Pesto Basil</label><br><br>
+
+
+        <label for="toppings">Select Toppings:</label><br>
+        <input type="checkbox" id="tomato" name="topping" value="Tomato">
+        <label for="tomato">Tomato</label><br>
+        <input type="checkbox" id="bellpepper" name="topping" value="Bell-Pepper">
+        <label for="bellpepper">Bell-Pepper</label><br>
+        <input type="checkbox" id="onion" name="topping" value="Onions">
+        <label for="onion">Onions</label><br>
+        <input type="checkbox" id="jalapeno" name="topping" value="Jalapenos">
+        <label for="jalapeno">Jalapenos</label><br>
+        <input type="checkbox" id="bolives" name="topping" value="Black Olives">
+        <label for="bolives">Black Olives</label><br>
+        <input type="checkbox" id="pineapple" name="topping" value="Pineapple">
+        <label for="pineapple">Pineapple</label><br>
+        <input type="checkbox" id="coriander" name="topping" value="Coriander">
+        <label for="coriander">Coriander</label><br>
+        <input type="checkbox" id="greenchilli" name="topping" value="Green Chilli">
+        <label for="greenchilli">Green Chilli</label><br><br>
+        <button id="btn">Submit</button> 
+    </form>
+    <p id="description"></p>
+</body>
+</html>
